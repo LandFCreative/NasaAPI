@@ -1,0 +1,97 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('/NASA API/img/BG.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    overflow: hidden;
+ } 
+ 
+ body div {
+  display: flex;
+  margin: auto 7%;
+  padding: 0;
+  justify-content: center;
+  /* border: 1px red solid; */
+ }
+
+ h1 {
+  text-shadow: 4px 4px 3px rgb(131, 218, 235);
+ }
+
+input, button {
+padding: 2px;
+}
+
+.inputarea {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+
+ 
+}
+
+.nameimgdescript {
+  display: flex;
+  display: row;
+  justify-content: center;
+  order: 0;
+  padding: 5px;
+  white-space: wrap;
+
+
+}
+
+
+h2{display: block;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  width: 15%;
+  padding: 5px;
+  font-size:large;
+  
+
+}
+
+.img {
+  display: block;
+  /* border: 1px solid black; */
+  width: 50%;
+  margin: 0;
+  padding: 5px;
+  }
+
+ img{ 
+  object-fit: contain;
+  width: 100%;
+}
+
+h3{
+  display: block;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  width: 35%;
+  padding: 5px;
+  font-weight: 100;
+  font-size: small;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
