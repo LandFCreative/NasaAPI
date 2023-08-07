@@ -16,7 +16,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-image: url('./img/BG.jpg');
+
+  background-image: url('img/BG.jpg');
     background-size: 100%;
     background-repeat:no-repeat;
     overflow: hidden;
